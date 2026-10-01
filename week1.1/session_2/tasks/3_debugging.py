@@ -3,8 +3,8 @@
 
 # Find and fix the errors
 
-name = imput("Enter your name: ")
-int(age) = input("Enter your age: ")
- city = input("Enter your city: ")
+name = input("Enter your name: ") #Spelled input incorrectly
+age = int(input("Enter your age: ")) #type declaration was on the variable and not the input
+city = input("Enter your city: ") #unaligned with the other lines
 
-print("Hello {name}, you are {age} years old and live in {city}.")
+print(f"Hello {name}, you are {age} years old and live in {city}.") #forgot the f to format the output
