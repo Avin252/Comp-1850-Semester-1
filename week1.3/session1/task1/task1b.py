@@ -8,5 +8,5 @@ while fruit:
 
 
 # Why does this work?
-
+# a list is a LIFO structure, so popping gets the last item in the list and goes backwards
 # What features of Python does it rely on?

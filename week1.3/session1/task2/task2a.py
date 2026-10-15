@@ -1,10 +1,9 @@
 # Week 1.3, Session 1: Task 2a
 
 k = 2
-while True:
+while k < 200:
     k = 2 * k 
     print(k)
-    
 
 # As written this is an infinite loop.
 # If you run it, use <Ctrl>C to exit the running program.
