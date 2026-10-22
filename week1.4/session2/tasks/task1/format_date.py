@@ -8,8 +8,12 @@
 
 def format_data(day, month, year, separator):
     # complete your code here
-
+    formatted_date = day + separator + month + separator + year
     return formatted_date
 
 
 # Write code to test the function with separators such as "/", ":", "."
+day = input("Enter day number: ")
+month = input("Enter month number: ")
+year = input("Enter year number: ")
+print(format_data(day, month, year, "|"))

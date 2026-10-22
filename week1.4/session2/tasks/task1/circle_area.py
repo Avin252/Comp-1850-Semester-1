@@ -12,18 +12,19 @@
 # default value to the optional argument pi_value. You can set it to
 # either (1) 3.14, (2) 3.142, (4) 3.1428, or (4) 3.142857 and observed
 # the output produced the the function is used.
-
+import math
+pi_value = math.pi
 
 def circle_area(radius, pi_value):  # assign a default value to pi_value
     # complete the code here
-
+    area = pi_value * radius * radius
     return area
 
 
 # Check if correct output is produced
-print(circle_area(2))
-print(circle_area(5))
-print(circle_area(22.5))
+print(circle_area(2, pi_value))
+print(circle_area(5, pi_value))
+print(circle_area(22.5, pi_value))
 
 # For those knowing how to import a module, you could import the math module
 # and then use math.pi as the default value for pi_value.

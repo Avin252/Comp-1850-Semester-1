@@ -2,6 +2,7 @@
 
 def greeting(name='John'):
     # Your task is change the default name to your name and observe the output
+    name = "Avin"
     print(f'Good morning {name}')
 
 
@@ -9,3 +10,5 @@ def greeting(name='John'):
 greeting()
 
 # write a second test by passing a name to the function
+greeting("Stephen")
+# comment out the name = "Avin for this to work"
