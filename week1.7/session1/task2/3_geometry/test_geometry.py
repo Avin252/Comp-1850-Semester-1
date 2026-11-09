@@ -17,8 +17,11 @@ def test_point_distance_to():
     
     # complete the implementation for
     # testing distance_to()
-    
-
+def test_circle_constructor():
+    c = Circle(5)
+    assert c.radius == 5
+    assert c.centre.x == 0.0
+    assert c.centre.y == 0.0
 # Write test functions to test the __init__(), 
 # area() and perimeter() methods in Circle class
 # you can use the default value for centre coordinates

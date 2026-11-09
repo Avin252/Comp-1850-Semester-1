@@ -11,16 +11,22 @@ from process_data import process_data
 
 
 def test_empty_list():
+    if not process_data([]) == []:
+        raise AssertionError("Expected an empty list for input of an empty list")
     # complete the implementation for
     # testing an empty list
     
     
 def test_one_int_list():
+    if not process_data([5]) == [5]:
+        raise AssertionError("Expected the same list for input of a single integer")
     # complete the implementation for 
     # testing a list with a single integer
 
 
 def test_multiple_int_list():
+    if not process_data([1, 2, 3]) == [1, 2, 3]:
+        raise AssertionError("Expected the same list for input of multiple integers")
     # complete the implementation for
     # testing a list with multiple integers
 
